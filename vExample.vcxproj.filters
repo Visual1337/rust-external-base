@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Threads">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{f0163f04-3b84-49dd-9170-be9bc8822535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\ImGui">
+      <UniqueIdentifier>{7f5da9e8-3c3b-4c4e-8838-89731086f013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\Resources">
+      <UniqueIdentifier>{0bfe9e72-3608-4789-bcc0-0fcef82645ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk">
+      <UniqueIdentifier>{51849254-34d4-4956-8c64-63899cba3d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk\Classes">
+      <UniqueIdentifier>{dc38da33-c53e-4458-bbf2-c57d46696e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk\Features">
+      <UniqueIdentifier>{9245932a-d288-4fdb-a019-671719a5bc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk\Unity">
+      <UniqueIdentifier>{31971d3f-ea16-4886-86dd-2005bf03a0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{2458f35d-ea64-4957-a207-18b5d2b10134}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Threads\Aimbot.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\Main.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\Misc.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\Overlay.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\Update.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui.cpp">
+      <Filter>Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_demo.cpp">
+      <Filter>Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_draw.cpp">
+      <Filter>Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_impl_win32.cpp">
+      <Filter>Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_tables.cpp">
+      <Filter>Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_widgets.cpp">
+      <Filter>Overlay\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Global.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Includes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Math.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Esp.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Menu.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Misc.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Resources\font.hpp">
+      <Filter>Overlay\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Resources\image.hpp">
+      <Filter>Overlay\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imconfig.h">
+      <Filter>Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui.h">
+      <Filter>Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui_impl_dx11.h">
+      <Filter>Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui_impl_win32.h">
+      <Filter>Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui_internal.h">
+      <Filter>Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imstb_rectpack.h">
+      <Filter>Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imstb_textedit.h">
+      <Filter>Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imstb_truetype.h">
+      <Filter>Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Unity\Structs.hpp">
+      <Filter>Sdk\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Unity\Unity.hpp">
+      <Filter>Sdk\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Unity\Utils.hpp">
+      <Filter>Sdk\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Offsets.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Features\Enviorment.hpp">
+      <Filter>Sdk\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Features\Movement.hpp">
+      <Filter>Sdk\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Features\Weapon.hpp">
+      <Filter>Sdk\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\BaseMovement.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\BasePlayer.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\Camera.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\ItemContainer.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\ModelState.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\PlayerEyes.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\PlayerInput.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\PlayerInventory.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\PlayerModel.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\Players.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdk\Classes\World.hpp">
+      <Filter>Sdk\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\XorStr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driverh.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
